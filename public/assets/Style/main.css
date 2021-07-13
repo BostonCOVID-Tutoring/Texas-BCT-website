@@ -496,6 +496,15 @@ figcaption {
     color: white;
     font-size: 8vw;
 }
+
+.h-top-title a:link, .h-top-title a:visited{
+    color: lightblue;
+}
+
+.h-top-title a:hover, .h-top-title a:active{
+    color: white;
+}
+
 .h-sign-up{
     position: absolute;
     bottom: 10%;
@@ -1925,6 +1934,12 @@ figcaption {
 }
 .person:nth-child(3) .headshot{
     background-image: url(../img/graham.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.person:nth-child(5) .headshot{
+    background-image: url(../img/daniela.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
